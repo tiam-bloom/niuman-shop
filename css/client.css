@@ -1,0 +1,183 @@
+/* 当前激活栏 */
+.nav ul li:nth-child(5) {
+    border-bottom: 4px solid #53bdfd;
+    cursor: pointer;
+}
+
+ul li:nth-child(5) a {
+    color: #53bdfd;
+}
+
+
+.left_cotent {
+    width: 1200px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.left_sidebar {
+    width: 25%;
+    padding: 20px 50px;
+    box-sizing: border-box;
+}
+
+.artical_box {
+    width: 75%;
+}
+
+.top {
+    text-align: center;
+    background-color: #01a1ff;
+    color: white;
+    height: 105px;
+}
+
+.bottom {
+    text-align: center;
+    border: 1px solid #01a1ff;
+    /* line-height: 43px; */
+    margin-bottom: 50px;
+
+}
+
+.bottom li {
+    padding: 6px 10px;
+    border-radius: 15px;
+    margin: 10px 10px;
+}
+
+.bottom li:last-child {
+    background-color: #01a1ff;
+    color: white;
+}
+
+.bottom li:hover {
+    cursor: pointer;
+    background-color: #01a1ff;
+    color: white;
+}
+
+.top h2 {
+    padding-top: 29px;
+}
+
+.search input {
+    margin: 14px;
+    height: 43px;
+}
+
+.search svg {
+    position: relative;
+    left: 64px;
+    bottom: 52px;
+    width: 34px;
+    height: 34px;
+}
+
+.search svg:hover {
+    background-color: #9b9b9b;
+    cursor: pointer;
+}
+
+.de_line {
+    width: 16px;
+    height: 4px;
+    background-color: white;
+    margin: 4px auto;
+}
+
+.search .bottom {
+    height: 72px;
+}
+
+.artical_nav {
+    text-indent: 5px;
+    display: flex;
+    height: 24px;
+    line-height: 24px;
+}
+
+.artical_nav h2 {
+    margin-left: 5px;
+    border-left: 3px solid #01a1ff;
+}
+
+.artical_nav p {
+    margin-top: 4px;
+    margin-right: 541px;
+}
+
+.artical_nav span {
+    float: right;
+    margin-top: 4px;
+}
+
+.artical_nav span:last-child {
+    color: #01a1ff;
+}
+
+
+.menu li {
+    margin: 6px auto;
+    /* display: flex; */
+}
+
+.menu li em {
+    float: right;
+    clear: both;
+}
+
+.menu .line {
+    /* border-bottom: 1px dashed gray;
+    position: relative;
+    bottom: 8px; */
+    width: auto;
+
+    /* display: block; */
+    /* overflow: hidden; */
+}
+/* 页码 */
+
+.pages ul {
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.pages li {
+    background-color: #e5e5e5;
+    margin: 0 3px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.pages li:hover {
+    background-color: #01a1ff;
+    color: white;
+    cursor: pointer;
+}
+
+.pages li:first-child {
+    width: 80px;
+}
+
+.pages li:nth-child(2) {
+    background-color: #01a1ff;
+    color: white;
+}
+
+.pages li:last-child {
+    width: 80px;
+}
+
+/* 其他子页面页面 */
+.page2 h1 {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.page2 p {
+    margin: 10px auto;
+}

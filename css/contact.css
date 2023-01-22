@@ -1,0 +1,152 @@
+/* 当前激活栏 */
+.nav ul li:nth-child(6) {
+    border-bottom: 4px solid #53bdfd;
+    cursor: pointer;
+}
+
+ul li:nth-child(6) a {
+    color: #53bdfd;
+}
+
+.left_content {
+    width: 1200px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.left_sidebar {
+    width: 25%;
+    padding: 20px 50px;
+    box-sizing: border-box;
+}
+
+.artical_box {
+    width: 75%;
+}
+
+.top {
+    text-align: center;
+    background-color: #01a1ff;
+    color: white;
+    height: 105px;
+}
+
+.bottom {
+    text-align: center;
+    border: 1px solid #01a1ff;
+    /* line-height: 43px; */
+    margin-bottom: 50px;
+
+}
+
+.bottom ul{
+    margin: 20px 0;
+}
+.bottom li {
+    color: #01a1ff;
+    padding: 4px 0px;
+    margin: 0 32px;
+    font-weight: 900;
+    font-size: 15px;
+}
+.bottom li:nth-child(3){
+    border-bottom: 2px solid #01a1ff;
+}
+
+
+.top h2 {
+    padding-top: 29px;
+}
+
+.search input {
+    margin: 14px;
+    height: 43px;
+}
+
+.search svg {
+    position: relative;
+    left: 64px;
+    bottom: 52px;
+    width: 34px;
+    height: 34px;
+}
+.search svg:hover {
+    background-color: #9b9b9b;
+    cursor: pointer;
+}
+.de_line {
+    width: 16px;
+    height: 4px;
+    background-color: white;
+    margin: 4px auto;
+}
+.search .bottom {
+    height: 72px;
+}
+.artical_nav {
+    text-indent: 5px;
+    display: flex;
+    height: 24px;
+    line-height: 24px;
+}
+
+.artical_nav h2 {
+    margin-left: 5px;
+    border-left: 3px solid #01a1ff;
+}
+
+.artical_nav p {
+    margin-top: 4px;
+    margin-right: 541px;
+}
+
+.artical_nav span {
+    float: right;
+    margin-top: 4px;
+}
+
+.artical_nav span:last-child {
+    color: #01a1ff;
+}
+
+
+.artical_left{
+    margin-top: 30px;
+    width: 50%;
+    float: left;
+  }
+  .artical_left input {
+    height: 23px;
+  }
+  .artical_left textarea{
+    resize: none;
+  }
+
+  .artical_left span {
+    margin: 10px 0;
+
+  }
+  .artical_left .submit{
+    background-color: #01a1ff;
+    color: white;
+    margin-left: 36px;
+  }
+  .artical_left button {
+    height: 34px;
+  }
+  .artical_right span,.artical_left span{
+    display: block;
+  }
+  button{
+    border: gray solid 1px;
+    width: 100px;
+  }
+  
+  .artical_right{
+    margin-top: 30px;
+    width: 50%;
+    float: left;
+  }
+  .artical_right span{
+    margin-top: 10px;
+  }

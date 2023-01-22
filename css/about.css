@@ -1,0 +1,95 @@
+.nav ul li:nth-child(2) {
+    border-bottom: 4px solid #53bdfd;
+    cursor: pointer;
+}
+
+ul li:nth-child(2) a {
+    color: #53bdfd;
+}
+
+/* 主体部分 box1 */
+.box1 {
+    width: 1200px;
+    margin: 50px auto;
+    display: flex;
+}
+.left_sidebar {
+    width: 22%;
+    padding: 20px 50px;
+    margin-left: 120px;
+    box-sizing: border-box;
+}
+.artical_box {
+    width: 59%;
+}
+.top {
+    text-align: center;
+    background-color: #01a1ff;
+    color: white;
+    height: 105px;
+}
+.bottom {
+    text-align: center;
+    border: 1px solid #01a1ff;
+    /* line-height: 43px; */
+    
+}
+.bottom li {
+    padding: 6px 10px;
+    border-radius: 15px;
+    margin: 10px 10px;
+}
+.bottom li:first-child {
+    background-color: #01a1ff;
+    color: white;
+}
+.bottom li:hover {
+    cursor: pointer;
+    background-color: #01a1ff;
+    color: white;
+}
+.top h2 {
+    padding-top: 35px;
+}
+
+.artical{
+    width: 100%;
+}
+
+
+.artical_nav {
+    text-indent: 5px;
+    display: flex;
+    line-height: 24px;
+    margin: 20px auto 5px;
+}
+
+.artical_nav h2 {
+    margin-left: 5px;
+    border-left: 3px solid #01a1ff;
+}
+.artical_nav p {
+    margin-top: 4px;
+    width: 59%;
+}
+
+.artical_nav span {
+    float: right;
+    margin-top: 4px;
+}
+
+.artical_nav span:last-child {
+    color: #01a1ff;
+}
+.artical img {
+    width: 512px;
+    float: left;
+    margin-right: 44px;
+}
+.artical p {
+    /* display: inline-block; */
+    text-indent: 2em;
+    line-height: 1.7em;
+    margin-bottom: 21px;
+}
+

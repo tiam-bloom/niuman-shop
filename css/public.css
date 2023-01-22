@@ -1,0 +1,317 @@
+/*全局样式开始*/
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    background: #ffffff;
+}
+
+ul,
+li,
+a,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+p,
+div {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfloat {
+    clear: both;
+    height: 0;
+    font-size: 1px;
+    line-height: 0;
+}
+
+/*图片自适应*/
+img {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+    height: auto;
+    display: block;
+}
+
+/*解决ie/firefox 浏览器中，点击一个链接后有一个虚线边框的问题*/
+/* a {
+    blr: expression(this.onFocus=this.close());
+} */
+
+/* 只支持IE，过多使用效率低 */
+/* a {
+    blr: expression(this.onFocus=this.blur());
+} */
+
+/* 只支持IE，过多使用效率低 */
+a:focus {
+    -moz-outline-style: none;
+}
+
+/* IE不支持 */
+a:focus {
+    outline: none;
+    -moz-outline: none;
+}
+
+a:active {
+    background: none;
+}
+
+/*解决chrome 浏览器，当文本框，多行文本获得焦点的时候，会有一个边框的问题*/
+input,
+textarea {
+    outline: none;
+}
+
+/* 轮播图 */
+.box1 {
+    width:1520px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .box {
+    /* height: 400px; */
+    display: flex;
+    animation: move calc(50s) infinite linear;
+  }
+  .box img{
+    max-width:100%;
+    /* animation: move calc(50s) infinite linear; */
+
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    5% {
+        transform: translateX(0);
+    }
+    35% {
+      transform: translateX(-1518px);
+    }
+    40% {
+        transform: translateX(-1518px);
+    }
+    75% {
+      transform: translateX(-3036px);
+    }
+    80% {
+        transform: translateX(-3036px);
+    }
+    /* 99% {
+      transform: translateX(-4500px);
+    } */
+    100%{
+        transform: translateX(0);
+    }
+  }
+
+
+/*全局样式结束*/
+
+
+html,
+body,
+.warpper {
+    width: 1518px;
+    margin: 0 auto;
+}
+
+/* .warpper {} */
+
+header{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    /* 盒子水平 */
+    display: flex;
+}
+
+.logo img {
+    margin-left: 120px;
+    width: 116px;
+}
+
+.nav {
+    /* 与logo高度相同 */
+    height: 67.53px;
+    /* border-left: 2px solid rgb(143, 41, 146);
+    border-right: 2px solid rgb(143, 41, 146); */
+    margin-left: 140px;
+}
+
+.nav a {
+    color: black;
+}
+
+.nav li {
+    /* li 水平浮动 */
+    float: left;
+    /* 与nav高度减差4px，留出下线的4px */
+    line-height: 63.53px;
+    margin: 0px 20px;
+    font-size: larger;
+}
+
+/* 字体颜色 必须是a:hover */
+.nav li:hover {
+    border-bottom: 4px solid #53bdfd;
+    cursor: pointer;
+}
+
+.nav li a:hover {
+    color: #53bdfd;
+}
+
+
+
+.language {
+    margin-left: 50px !important;
+}
+
+.language a {
+    padding: 6px;
+}
+
+.language a:hover {
+    border: 1px solid gray;
+}
+
+.language .active {
+    border: 1px solid gray;
+}
+
+/* 轮播 */
+.banner {
+    display: flex;
+    /* 超出隐藏 */
+    overflow: hidden;
+}
+.banner img {
+    width: 100%;
+}
+
+
+
+/* 页脚 */
+
+footer {
+    background-color: #53bdfd;
+    width: 100%;
+    height: 350px;
+    color: white;
+    
+}
+.footer_top {
+    display: flex;
+}
+.footer_left {
+    width: 65%;
+    height: 250px;
+    text-align: center;
+   padding-bottom: 30px;
+}
+table {
+    position: relative;
+    top: 40px;
+    margin:0  50px 0 166px;
+}
+footer table thead{
+    font-size: 14px;
+}
+.footer_left table td,th{
+    padding: 0 40px;
+    user-select: none;
+}
+.footer_left table td:hover{
+    cursor: pointer;
+    color: #89cbff;
+}
+.footer_right {
+    width: 35%;
+    height: 250px;
+    float: left;
+    padding-top: 60px;
+}
+
+.footer_right input, .footer_right textarea,.footer_right button {
+    background-color: #53bdfd;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    resize: none;
+    text-indent: 1px;
+}
+
+.footer_right input {
+    margin: 0 8px 8px 0;
+    width: 142px;
+}
+
+.footer_right button {
+    display: block;
+    width: 100px;
+    margin-top: 5px;
+    font-size: small;
+    padding: 5px 0;
+}
+.footer_right button:hover {
+    background-color: #89cbff;
+}
+
+input:-moz-placeholder,   
+textarea:-moz-placeholder {   
+    color: #89cbff;  
+    font-size:10px; 
+}   
+
+input:-ms-input-placeholder,   
+textarea:-ms-input-placeholder {   
+    color: #89cbff;   
+    font-size:10px; 
+}   
+  
+input::-webkit-input-placeholder,   
+textarea::-webkit-input-placeholder {   
+    color: #89cbff;   
+    font-size:10px; 
+}  
+
+.footer_bottom {
+    clear: both;
+    display: block;
+    /* width: 100%; */
+}
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+.footer_bottom p{
+    text-align: center;
+    line-height: 39px;
+}
